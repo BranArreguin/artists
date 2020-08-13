@@ -1,0 +1,182 @@
+/*
+*    Name: 'Defualt'
+*    Author: Brandon Arreguin (Brandon A.P)
+*    Social network URL: https://twitter.com/BranArreguin
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ol, ul {
+    display: block;
+    list-style: none !important;
+}
+
+ul, ol {
+    display: block;
+    list-style: none !important;
+}
+
+h1, h2, h3, h3, h4, h5, h6, a, p, div, section, textarea, 
+input, button, span, label, blockquote, legend{
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    font-size: 1rem !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+button,
+input[type="button"], 
+input[type="reset"],
+input[type="submit"]{
+    border: none;
+    cursor: pointer !important;
+}
+
+h1{
+    font-size: 4.2rem !important;
+    font-weight: 800;
+    margin-bottom: 3rem !important;
+}
+
+h2{
+    font-size: 3.4rem !important;
+    font-weight: 700;
+    margin-bottom: 2.4rem !important;
+}
+
+h3{
+    font-size: 2.8rem !important;
+    font-weight: 500;
+    margin-bottom: 2rem !important;
+}
+
+h4{
+    font-size: 2rem !important;
+    font-weight: 500;
+    margin-bottom: 1.9rem;
+}
+
+h5{
+    font-size: 1.6rem !important;
+    font-weight: 300;
+    margin-bottom: 1.5rem !important;
+}
+
+h6{
+    font-size: 1.1rem !important;
+    font-weight: 300;
+    margin-bottom: 1rem !important;
+}
+
+p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 1.6rem !important;
+    line-height: 32px;
+}
+
+strong{
+    font-weight: 800 !important;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover !important;
+}
+
+textarea{
+    overflow: auto !important;
+}
+
+
+@media screen and (min-width: 880px) and (max-width: 1278px){
+    h1{
+        font-size: 3.8rem !important;
+        font-weight: 800;
+        margin-bottom: 3rem !important;
+    }
+    
+    h2{
+        font-size: 3rem !important;
+        font-weight: 700;
+        margin-bottom: 2.4rem !important;
+    }
+    
+    h3{
+        font-size: 2.5rem !important;
+        font-weight: 500;
+        margin-bottom: 2rem !important;
+    }
+    
+    h4{
+        font-size: 2rem !important;
+        font-weight: 500;
+        margin-bottom: 1.9rem;
+    }
+    
+    h5{
+        font-size: 1.6rem !important;
+        font-weight: 300;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    p{
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-bottom: 1.8rem !important;
+    }
+}
+
+@media screen and (min-width: 280px) and (max-width: 880px){
+    h1{
+        font-size: 3.2rem !important;
+        font-weight: 800;
+        margin-bottom: 3rem !important;
+    }
+    
+    h2{
+        font-size: 2.7rem !important;
+        font-weight: 700;
+        margin-bottom: 2.4rem !important;
+    }
+    
+    h3{
+        font-size: 2.2rem !important;
+        font-weight: 500;
+        margin-bottom: 2rem !important;
+    }
+    
+    h4{
+        font-size: 1.9rem !important;
+        font-weight: 500;
+        margin-bottom: 1.9rem;
+    }
+    
+    h5{
+        font-size: 1.4rem !important;
+        font-weight: 300;
+        margin-bottom: 1.5rem !important;
+    }
+    
+    h6{
+        font-size: 1.1rem !important;
+        font-weight: 300;
+        margin-bottom: 1rem !important;
+    }
+    
+    p{
+        font-size: 1.3rem;
+        font-weight: 300;
+        margin-bottom: 1.8rem !important;
+    }
+}

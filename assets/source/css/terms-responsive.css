@@ -1,0 +1,125 @@
+@media screen and (min-width: 280px) and (max-width: 1278px){
+    .navigation-bar{
+        height: 65px;
+    }
+    .navigation-bar.active{
+        height: 332px;
+        transition: 0.4s ease;
+    }
+    
+    .nav-desktop-mobile-section{
+        width: 100%;
+        height: 35px;
+        max-width: 90%;
+        margin: 15px auto;
+        display: flex;
+        transition: 0.4s ease;
+    }
+    .nav-dm-first{
+        width: 100%;
+        height: 35px;
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+    .wordmark{
+        width: 115px;
+        height: 35px;
+    }
+
+    
+    .burger-toggle-button{
+        display: flex;
+    }
+    
+    
+    .nav-dm-second{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        max-width: 90%;
+        margin: auto;
+        margin-top: 55px;
+        height: 90%;
+        overflow: auto;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.3s ease;
+    }
+    .navigation-bar.active .nav-dm-second{
+        visibility: visible;
+        opacity: 1;
+        transition: 0.8s ease;
+    }
+    .nav-sub-section-primary{
+        width: 100%;
+        height: auto;
+    }
+    .nav-sub-section-primary ul{
+        display: block;
+        float: none;
+        margin: 10px 0px;
+    }
+    .nav-sub-section-primary a{
+        display: flex;
+        padding: 20px 0px;
+        font-size: 18px !important;
+    }
+    .nav-sub-section-primary a:hover{
+        color: var(--red);
+        transition: 0.3s ease;
+    }
+
+
+    .terms-global-container{
+        width: 100%;
+        height: auto;
+        max-width: 90%;
+        margin: auto;
+        margin-top: 120px;
+        margin-bottom: 80px;
+    }
+    .terms-global-container p{
+        font-size: 20px !important;
+        margin-bottom: 50px !important;
+    }
+
+
+    .credits-container{
+        max-width: 90%;
+        margin-bottom: 60px;
+    }
+    .credits-container li{
+        font-size: 18px;
+        margin: 22px 0px;
+    }
+
+
+    .line-before-footer{
+        width: 100%;
+        height: 1px;
+        background: var(--grey);
+        margin: auto;
+        max-width: 90%;
+    }
+    .footer{
+        position: absolute;
+        width: 100%;
+        height: 180px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer ul{
+        width: 90%;
+        height: auto;
+    }
+    .footer h6{
+        font-size: 16px !important;
+        color: var(--grey);
+        font-weight: 600;
+    }
+}

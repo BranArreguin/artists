@@ -1,0 +1,241 @@
+@font-face {
+  font-family: 'axel';
+  src:  url('fonts/axel.eot?fvli70');
+  src:  url('fonts/axel.eot?fvli70#iefix') format('embedded-opentype'),
+    url('fonts/axel.ttf?fvli70') format('truetype'),
+    url('fonts/axel.woff?fvli70') format('woff'),
+    url('fonts/axel.svg?fvli70#axel') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'axel' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-step-backward:before {
+  content: "\f048";
+}
+.icon-fast-backward:before {
+  content: "\f049";
+}
+.icon-backward:before {
+  content: "\f04a";
+}
+.icon-play:before {
+  content: "\f04b";
+}
+.icon-pause:before {
+  content: "\f04c";
+}
+.icon-stop:before {
+  content: "\f04d";
+}
+.icon-forward:before {
+  content: "\f04e";
+}
+.icon-fast-forward:before {
+  content: "\f050";
+}
+.icon-step-forward:before {
+  content: "\f051";
+}
+.icon-amazon:before {
+  content: "\e901";
+  color: #f90;
+}
+.icon-apple:before {
+  content: "\e903";
+  color: #999;
+}
+.icon-applemusic:before {
+  content: "\e905";
+  color: #999;
+}
+.icon-applepodcasts:before {
+  content: "\e90c";
+  color: #93c;
+}
+.icon-beatsbydre:before {
+  content: "\e90d";
+  color: #e01f3d;
+}
+.icon-behance:before {
+  content: "\e90e";
+  color: #1769ff;
+}
+.icon-deezer:before {
+  content: "\e902";
+  color: #feaa2d;
+}
+.icon-facebook:before {
+  content: "\e904";
+}
+.icon-googleplay:before {
+  content: "\e907";
+  color: #607d8b;
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-snapchat:before {
+  content: "\e90f";
+  color: #fffc00;
+}
+.icon-soundcloud:before {
+  content: "\e908";
+  color: #f30;
+}
+.icon-spotify:before {
+  content: "\e900";
+  color: #1ed760;
+}
+.icon-tumblr:before {
+  content: "\e90b";
+  color: #36465d;
+}
+.icon-twitter:before {
+  content: "\e909";
+}
+.icon-whatsapp:before {
+  content: "\e912";
+  color: #25d366;
+}
+.icon-youtube:before {
+  content: "\e90a";
+}
+.icon-image:before {
+  content: "\e913";
+}
+.icon-images:before {
+  content: "\e914";
+}
+.icon-headphones:before {
+  content: "\e910";
+}
+.icon-music:before {
+  content: "\e911";
+}
+.icon-mic:before {
+  content: "\e91e";
+}
+.icon-file-picture:before {
+  content: "\e927";
+}
+.icon-file-music:before {
+  content: "\e928";
+}
+.icon-file-play:before {
+  content: "\e929";
+}
+.icon-file-video:before {
+  content: "\e92a";
+}
+.icon-location:before {
+  content: "\e947";
+}
+.icon-location2:before {
+  content: "\e948";
+}
+.icon-compass:before {
+  content: "\e949";
+}
+.icon-display:before {
+  content: "\e956";
+}
+.icon-sphere:before {
+  content: "\e9c9";
+}
+.icon-earth:before {
+  content: "\e9ca";
+}
+.icon-link:before {
+  content: "\e9cb";
+}
+.icon-sun:before {
+  content: "\e9d4";
+}
+.icon-heart:before {
+  content: "\e9da";
+}
+.icon-info:before {
+  content: "\ea0c";
+}
+.icon-play2:before {
+  content: "\ea15";
+}
+.icon-pause1:before {
+  content: "\ea16";
+}
+.icon-stop1:before {
+  content: "\ea17";
+}
+.icon-previous:before {
+  content: "\ea18";
+}
+.icon-next:before {
+  content: "\ea19";
+}
+.icon-backward1:before {
+  content: "\ea1a";
+}
+.icon-forward2:before {
+  content: "\ea1b";
+}
+.icon-volume-high:before {
+  content: "\ea26";
+}
+.icon-volume-medium:before {
+  content: "\ea27";
+}
+.icon-volume-low:before {
+  content: "\ea28";
+}
+.icon-volume-mute:before {
+  content: "\ea29";
+}
+.icon-volume-mute2:before {
+  content: "\ea2a";
+}
+.icon-volume-increase:before {
+  content: "\ea2b";
+}
+.icon-volume-decrease:before {
+  content: "\ea2c";
+}
+.icon-loop2:before {
+  content: "\ea2e";
+}
+.icon-infinite:before {
+  content: "\ea2f";
+}
+.icon-shuffle:before {
+  content: "\ea30";
+}
+.icon-embed:before {
+  content: "\ea7f";
+}
+.icon-embed2:before {
+  content: "\ea80";
+}
+.icon-terminal:before {
+  content: "\ea81";
+}
+.icon-share2:before {
+  content: "\ea82";
+}

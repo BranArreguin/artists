@@ -1,0 +1,250 @@
+/*
+*    Name: 'Terms theme'
+*    Axel's Terms theme URL: https://axeljimenez.studio/
+*    Theme style sheet for https://axeljimenez.studio/
+*    Author: Brandon Arreguin (Brandon A.P)
+*    Social network URL: https://twitter.com/BranArreguin
+*/
+
+:root{
+    --dark:                 #202020;
+    --black:                #000000;
+    --light:                #ffffff;
+    --light-grey:           #f3f3f3;
+    --red:                  #f12222;
+    --hover-red:            #c21111;
+    --grey:                 #d8d8d8;
+
+    --fb:                   #1877f2;
+    --fb-hover:             #1a71e4;
+    --tw:                   #1da1f2;
+    --tw-hover:             #1b94df;
+    --ig:                   #c32aa3;
+    --ig-hover:             #b32794;
+    --appl:                 #a6b1b7;
+    --st:                   #1ed760;
+    --amz:                  #ff9900;
+    --socl:                 #ff5500;
+    --yt:                   #ff0000;
+
+    --light-transparent:    #fffffffb;
+}
+
+body{
+    background: var(--light);
+}
+
+/*------------------Navbar -----------------*/
+.navigation-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 85px;
+    background: var(--light);
+    -webkit-box-shadow: 0px 2px 12px #0000002c;
+    box-shadow: 0px 2px 12px #0000002c;
+    z-index: 1000;
+    transition: 0.4s ease;
+}
+
+.nav-desktop-mobile-section{
+    width: 100%;
+    height: 40px;
+    max-width: 1080px;
+    margin: 22px auto;
+    display: flex;
+    transition: 0.4s ease;
+}
+.nav-dm-first{
+    width: 100%;
+    height: 40px;
+    max-width: 25%;
+    display: flex;
+    align-items: center;
+}
+.wordmark{
+    position: relative;
+    width: 130px;
+    height: 40px;
+    background-image: url(../../media/mark/logo/svg/axel-black-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: 0.4s ease;
+    transition: 0.4s ease;
+}
+
+
+.burger-toggle-button{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    right: 5%;
+    background-color: transparent;
+    transition: 0.4s ease;
+}
+.burger-toggle-button.toggle{
+    transform: rotate(270deg);
+    transition: 0.4s ease;
+}
+.burger-toggle-button .icon-container{
+    position: relative;
+    width: 22px;
+    height: 22px;
+}
+.burger-toggle-button .span-burger-icon{
+    position: absolute;
+    width: 22px;
+    height: 2px;
+    top: 10px;
+    left: 0;
+    background: var(--dark);
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
+.burger-toggle-button .span-burger-icon:before{
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 2px;
+    top: -7px;
+    left: 0;
+    background: var(--dark);
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
+.burger-toggle-button .span-burger-icon:after{
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 2px;
+    top: 7px;
+    right: 0;
+    background: var(--dark);
+    border-radius: 6px;
+    transition: 0.4s ease;
+}
+
+.burger-toggle-button.toggle .span-burger-icon{
+    background: transparent;
+    transition: 0.4s ease;
+}
+.burger-toggle-button.toggle .span-burger-icon:before{
+    top: 0;
+    transform: rotate(45deg);
+    width: 22px;
+    height: 3px;
+    background-color: var(--red);
+    transition: 0.4s ease;
+}
+.burger-toggle-button.toggle .span-burger-icon:after{
+    top: 0px;
+    transform: rotate(-45deg);
+    width: 22px;
+    height: 3px;
+    background-color: var(--red);
+    transition: 0.4s ease;
+}
+
+
+.nav-dm-second{
+    width: 100%;
+    height: 40px;
+    max-width: 75%;
+    display: flex;
+}
+.nav-sub-section-primary{
+    width: 100%;
+    height: 40px;
+}
+.nav-sub-section-primary ul{
+    display: flex;
+    float: right;
+    margin: 2px 0px;
+}
+.nav-sub-section-primary a{
+    color: var(--dark);
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease;
+}
+.nav-sub-section-primary a:hover{
+    color: var(--red);
+    transition: 0.3s ease;
+}
+.nav-sub-section-primary .icon{
+    margin-right: 6px;
+}
+/*----------------Navbar end----------------*/
+
+
+.terms-global-container{
+    width: 100%;
+    height: auto;
+    max-width: 1080px;
+    margin: auto;
+    margin-top: 210px;
+    margin-bottom: 90px;
+}
+.terms-global-container p{
+    font-size: 24px !important;
+    margin-bottom: 80px !important;
+    line-height: 36px !important;
+}
+
+.credits-container{
+    width: 100%;
+    height: auto;
+    max-width: 1080px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.credits-container li{
+    font-size: 20px;
+    margin: 22px 0px;
+}
+
+.twitter-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 26px;
+    color: var(--light);
+    font-size: 14px !important;
+    background-color: var(--tw);
+    border-radius: 3px;
+}
+.twitter-btn:hover{
+    background-color: var(--tw-hover);
+}
+.twitter-btn .icon-twitter{
+    margin-right: 6px;
+}
+
+
+.line-before-footer{
+    width: 100%;
+    height: 1px;
+    background: var(--grey);
+    margin: auto;
+    max-width: 1080px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer h6{
+    font-size: 16px !important;
+    color: var(--grey);
+    font-weight: 600;
+}

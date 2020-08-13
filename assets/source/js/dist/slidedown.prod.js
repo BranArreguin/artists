@@ -1,0 +1,1 @@
+"use strict";$(function(){$(".slide-nav a, .down-button").click(function(t){t.preventDefault(),$("body, html").animate({scrollTop:$($.attr(this,"href")).offset().top},750)})});
